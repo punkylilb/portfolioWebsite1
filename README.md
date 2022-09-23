@@ -14,6 +14,16 @@ I have created a wireframe for my project and completing the README is one of my
 + Contact Page - how you can reach me, email, LinkedIn profile.
 + Useful links - this will be a reference library of all the links I've found really helpful to complete this project and in my general day to day work.
 
+#### Palette/Brand Guide 
+##### Colour Codes
++ 244D61 Darkest/Background
++ 5689C0 Heading
++ 75E2FF Button
++ EAEBED Text
+
+##### Typography
+
+
 
 ## License(../LICENSE)
 MIT License. Copyright (c) 2022 punkylilb
