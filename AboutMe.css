@@ -68,6 +68,9 @@ header nav ul {
 nav li {
     padding-left: 2.5rem;
 }
+ol, ul {
+      list-style: none;
+}
 nav a {
     vertical-align: bottom;
     line-height: 1.6;
