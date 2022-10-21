@@ -51,7 +51,7 @@ button {
 
 /* Header*/
 header {
-    position:fixed;
+    position: fixed;
     width: 100%;
     z-index: 100%;
     border-bottom: solid 1px black;
@@ -63,7 +63,7 @@ header .content {
     padding: 1.875rem;
   }
 header nav ul {
-    display: flex;
+    display: inline-flex;
 }
 nav li {
     padding-left: 2.5rem;
@@ -114,16 +114,38 @@ header .mobile {
 }
 /* Main */
 .about-name {
+  display:block;
+  justify-content:start;
+  align-items:flex-start;
+  height: max-content;
+  max-width: max-content;
+  padding: 4rem 5%;
+  background-color: #f3f3f3;
+}
+
+.about-name .life-story {
+max-width: 50%;
+position: relative;
+top: 25px;
+left: 10%;
 
 }
-.name {
+.about-name img {
+  display: flex;  
+  width: 60%;
+  height: 65%;
+  margin: 0 auto;
 
 }
+
 #skills-container {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+}
+#skills-container h3 {
+  
 }
 /* Footer */
 
