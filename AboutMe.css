@@ -23,7 +23,7 @@ h3 {
 }
 p {
   color: black;
-  font-size: 28px;
+  font-size: 24px;
   text-align: left;
   padding-left: 1.5rem;
 }
@@ -33,14 +33,7 @@ button {
   color: white;
 
 }
-.image-container {
-  overflow: hidden;
-}
 
-.image-container img {
-  display: block;
-  max-width: 100%;
-}
 
 @media only screen and (max-width: 760px) {
   .main-content {
@@ -74,7 +67,7 @@ ol, ul {
 nav a {
     vertical-align: bottom;
     line-height: 1.6;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: black;
 }
   
@@ -116,28 +109,38 @@ header .mobile {
     }
 }
 /* Main */
+.name {
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+  }
 .about-name {
-  display:block;
+  display:flex;
   justify-content:start;
   align-items:flex-start;
-  height: max-content;
-  max-width: max-content;
   padding: 4rem 5%;
   background-color: #f3f3f3;
 }
 
 .about-name .life-story {
-max-width: 50%;
-position: relative;
-top: 25px;
-left: 10%;
 
+position: relative;
+top: 1rem;
+left: 4rem;
 }
-.about-name img {
+
+.portrait {
+  float: right;
   display: flex;  
+  vertical-align:middle;
   width: 60%;
   height: 65%;
+  flex-shrink: 0;
   margin: 0 auto;
+  border-radius: 10px;
 
 }
 
@@ -147,7 +150,7 @@ left: 10%;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-#skills-container h3 {
+#skills-image-container {
   
 }
 /* Footer */
@@ -160,7 +163,7 @@ footer {
 footer .content {
   color: black;
   display: flex;
-  font-size: .75rem;
+  font-size: 1.5rem;
 }
 
 footer .copyright {
@@ -169,6 +172,6 @@ footer .copyright {
 
 @media only screen and (min-width: 760px) {
   footer .content {
-    font-size: .625rem;
+    font-size: .75rem;
   }
 }
